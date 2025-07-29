@@ -15,20 +15,6 @@ export default function BayCitiesLogo({
       className={className}
       xmlns="http://www.w3.org/2000/svg"
     >
-      {/* Background with texture pattern */}
-      <defs>
-        <pattern
-          id="texture"
-          patternUnits="userSpaceOnUse"
-          width="4"
-          height="4"
-        >
-          <rect width="4" height="4" fill="#1a1a1a" />
-          <rect width="2" height="2" fill="#2d2d2d" />
-        </pattern>
-      </defs>
-      <rect width="300" height="400" fill="url(#texture)" rx="8" />
-
       {/* Keyhole shape */}
       <g fill="none" stroke="#FFD700" strokeWidth="12" strokeLinecap="round">
         {/* 80% circle - starts from left side, goes up and around to right side */}
@@ -74,19 +60,18 @@ export default function BayCitiesLogo({
         <use xlinkHref="#criclePath" fill="none" />
         <text fill="#FFD700"
         fontFamily="Arial, sans-serif"
-        fontSize="32"
         fontWeight="bold"
         letterSpacing="4px">
-          <textPath fontSize={24} strokeLinecap="round" xlinkHref="#criclePath">BAY CITIES</textPath>
+          <textPath fontSize={25} strokeLinecap="round" xlinkHref="#criclePath">BAY CITIES</textPath>
         </text>
       </g>
       <text
-        x="135"
+        x="131"
         y="260"
         textAnchor="middle"
         fill="#FFD700"
         fontFamily="Arial, sans-serif"
-        fontSize="24"
+        fontSize="25"
         fontWeight="bold"
         letterSpacing="4px"
       >
