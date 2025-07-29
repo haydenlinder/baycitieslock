@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Bay Cities Lock and Safe",
-  description: "Bay Cities Lock & Safe takes care of all essential commercial locksmith services, including re-keying, master keying, access control, and record-keeping",
+  description:
+    "Bay Cities Lock & Safe takes care of all essential commercial locksmith services, including re-keying, master keying, access control, and record-keeping",
 };
 
 export default function RootLayout({

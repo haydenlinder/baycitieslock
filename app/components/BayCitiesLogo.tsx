@@ -58,11 +58,15 @@ export default function BayCitiesLogo({
 
       <g>
         <use xlinkHref="#criclePath" fill="none" />
-        <text fill="#FFD700"
-        fontFamily="Arial, sans-serif"
-        fontWeight="bold"
-        letterSpacing="4px">
-          <textPath fontSize={25} strokeLinecap="round" xlinkHref="#criclePath">BAY CITIES</textPath>
+        <text
+          fill="#FFD700"
+          fontFamily="Arial, sans-serif"
+          fontWeight="bold"
+          letterSpacing="4px"
+        >
+          <textPath fontSize={25} strokeLinecap="round" xlinkHref="#criclePath">
+            BAY CITIES
+          </textPath>
         </text>
       </g>
       <text
