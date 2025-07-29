@@ -40,9 +40,9 @@ export default function Home() {
             Bay Cities Lock & Safe
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Professional locksmith and safe services for residential,
-            commercial, and automotive needs. Trusted security solutions since
-            day one.
+            Bay Cities Lock & Safe takes care of all essential commercial
+            locksmith services, including re-keying, master keying, access
+            control, and record-keeping.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -55,7 +55,7 @@ export default function Home() {
               href="tel:555-0123"
               className="border-2 border-yellow-400 text-yellow-400 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400 hover:text-gray-900 transition-colors"
             >
-              Call Now: (555) 012-3456
+              Call Now: (408) 564-7281
             </a>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <span className="text-yellow-400 text-xl mr-3">📞</span>
-                  <span className="text-gray-300">(555) 012-3456</span>
+                  <span className="text-gray-300">(408) 564-7281</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-yellow-400 text-xl mr-3">✉️</span>
