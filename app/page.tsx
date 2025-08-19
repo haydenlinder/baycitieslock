@@ -5,9 +5,9 @@ export default function Home() {
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Header */}
       <header className="bg-gray-800 shadow-lg">
-        <div className="container mx-auto px-4 py-6">
+        <div className="container mx-auto px-4 py-2">
           <div className="flex items-center justify-between">
-            <BayCitiesLogo width={120} height={160} />
+            <BayCitiesLogo width={128} height={128} />
             <nav className="hidden md:flex space-x-8">
               <a
                 href="#services"
@@ -33,7 +33,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-gray-800 to-gray-900 py-20">
+      <section className="bg-gradient-to-b from-gray-800 to-gray-900 pb-20">
         <div className="container mx-auto px-4 text-center">
           <BayCitiesLogo width={200} height={267} className="mx-auto mb-8" />
           <h1 className="text-5xl font-bold text-yellow-400 mb-6">
@@ -52,7 +52,7 @@ export default function Home() {
               Get Emergency Service
             </a>
             <a
-              href="tel:555-0123"
+              href="tel:408-564-7281"
               className="border-2 border-yellow-400 text-yellow-400 px-8 py-3 rounded-lg font-semibold hover:bg-yellow-400 hover:text-gray-900 transition-colors"
             >
               Call Now: (408) 564-7281
@@ -71,14 +71,15 @@ export default function Home() {
             <div className="bg-gray-700 p-6 rounded-lg">
               <div className="text-yellow-400 text-4xl mb-4">🏠</div>
               <h3 className="text-xl font-semibold text-yellow-400 mb-3">
-                Residential
+                Masterkeying
               </h3>
+              <h2 className="mb-3">One key opens thousands of locks.</h2>
               <ul className="text-gray-300 space-y-2">
-                <li>• House lockouts</li>
-                <li>• Lock installation & repair</li>
+                <li>• Tiered access control</li>
+                <li>• Security and convenience</li>
                 <li>• Key duplication</li>
-                <li>• Home safes</li>
                 <li>• Security upgrades</li>
+                <li>• Walkthrough estimates available</li>
               </ul>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
@@ -87,24 +88,25 @@ export default function Home() {
                 Commercial
               </h3>
               <ul className="text-gray-300 space-y-2">
-                <li>• Master key systems</li>
-                <li>• Access control</li>
+                <li>• Lock installation & repair</li>
+                <li>• Record keeping</li>
                 <li>• Commercial safes</li>
                 <li>• Office lockouts</li>
                 <li>• Security assessments</li>
+                <li>• File cabinets</li>
+                <li>• Electronic locks</li>
               </ul>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
               <div className="text-yellow-400 text-4xl mb-4">🚗</div>
               <h3 className="text-xl font-semibold text-yellow-400 mb-3">
-                Automotive
+                Hardware and Repairs
               </h3>
               <ul className="text-gray-300 space-y-2">
-                <li>• Car lockouts</li>
-                <li>• Key programming</li>
-                <li>• Ignition repair</li>
-                <li>• Transponder keys</li>
+                <li>• Cost-effective repairs</li>
+                <li>• Custom solutions</li>
                 <li>• Emergency service</li>
+                <li>• On-site service</li>
               </ul>
             </div>
           </div>
@@ -159,11 +161,15 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <span className="text-yellow-400 text-xl mr-3">📞</span>
-                  <span className="text-gray-300">(408) 564-7281</span>
+                  <a href="tel:408-564-7281" className="text-gray-300 hover:underline">
+                    (408) 564-7281
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <span className="text-yellow-400 text-xl mr-3">✉️</span>
-                  <span className="text-gray-300">info@baycitieslock.com</span>
+                  <a href="mailto:support@baycitieslock.com?subject=I need a locksmith!" className="text-gray-300 hover:underline">
+                    support@baycitieslock.com
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <span className="text-yellow-400 text-xl mr-3">📍</span>
